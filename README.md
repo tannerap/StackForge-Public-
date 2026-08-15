@@ -1,4 +1,4 @@
-# StackForge
+# 🚀 StackForge
 
 <div align="center">
 
@@ -12,6 +12,10 @@
 
 [![Launch StackForge](https://img.shields.io/badge/Open_Wizard-→_stackforge.tannerap.ch-22c55e?style=for-the-badge&logo=docker&logoColor=white)](https://stackforge.tannerap.ch)
 [![Preview stack](https://img.shields.io/badge/Live_Preview-Compose_+_Sandbox-0ea5e9?style=for-the-badge)](https://stackforge.tannerap.ch)
+
+<br>
+
+![StackForge Demo](docs/assets/demo.gif)
 
 <br>
 
@@ -119,6 +123,7 @@ Toggle what you need. Dependencies, networks, and init order stay consistent.
 | Quality profiles & custom formats via API | — | ✅ |
 | `.env`, Traefik, `setup.sh`, init sidecars | — | ✅ |
 | Managed sandbox preview | — | ✅ |
+| Early Access / Beta Services (Tdarr, CrowdSec, etc.) | ❌ | ✅ |
 
 > **Free** — design and export; finish wiring yourself.  
 > **Premium** — full automation unlocked on our platform, deployed to your metal.
@@ -145,7 +150,7 @@ Toggle what you need. Dependencies, networks, and init order stay consistent.
 
 ## 🛠️ Developers
 
-This repository is the StackForge source. **End users use [stackforge.tannerap.ch](https://stackforge.tannerap.ch)** — contributor setup: **[docs/development.md](docs/development.md)**
+> *This repository serves as the public documentation, issue tracker, and community hub for StackForge. To request features or report bugs, please open an issue.*
 
 <p align="center">
   <sub><a href="https://stackforge.tannerap.ch">stackforge.tannerap.ch</a> · <a href="https://github.com/tannerap/StackForge">GitHub</a></sub>
