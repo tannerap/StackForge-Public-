@@ -1,5 +1,7 @@
 # 🚀 StackForge
 
+![StackForge Demo](docs/assets/demo.gif)
+
 <div align="center">
 
 ## ⚡ Radarr · Sonarr · Plex · Jellyfin · Traefik — wired, validated, deployed.
@@ -12,10 +14,6 @@
 
 [![Launch StackForge](https://img.shields.io/badge/Open_Wizard-→_stackforge.tannerap.ch-22c55e?style=for-the-badge&logo=docker&logoColor=white)](https://stackforge.tannerap.ch)
 [![Preview stack](https://img.shields.io/badge/Live_Preview-Compose_+_Sandbox-0ea5e9?style=for-the-badge)](https://stackforge.tannerap.ch)
-
-<br>
-
-![StackForge Demo](docs/assets/demo.gif)
 
 <br>
 
@@ -35,7 +33,7 @@ If you have ever stood up a media stack from scratch, you know the drill:
 |---|---|
 | Copy-paste `docker-compose.yml` fragments from five forum threads | One wizard → one validated Compose bundle |
 | Manually wire **Radarr ↔ Sonarr ↔ Prowlarr ↔ download clients** in each UI | Download clients, categories, and root folders pre-connected *(Premium)* |
-| Hunt down why **remote path mappings** do not match `/downloads` | Consistent paths across SABnzbd, NZBGet, qBittorrent, and *arr |
+| Hunt down why **remote path mappings** do not match `/downloads` | Consistent paths across SABnzbd, NZBGet, and *arr |
 | Debug **Traefik** labels, networks, and TLS for every service | Edge routing and TLS templates generated for you |
 | Rebuild **quality profiles & custom formats** after every Radarr/Sonarr update | Battle-tested WEB\|Bluray ladders and CF scoring — provisioned via API *(Premium)* |
 | Fix init scripts that call the wrong **API endpoint or auth header** | Init sidecars tested against real Radarr/Sonarr OpenAPI contracts |
@@ -53,12 +51,10 @@ StackForge speaks the tools Home Lab admins already run:
 |-------|----------|
 | **Edge & TLS** | [Traefik](https://traefik.io) — reverse proxy, Host rules, optional Cloudflare DNS |
 | **Movies & TV** | [Radarr](https://radarr.video) · [Sonarr](https://sonarr.tv) · optional 4K split instances |
-| **Music** | [Lidarr](https://lidarr.audio) |
 | **Indexers** | [Prowlarr](https://prowlarr.com) — central indexer management for all *arr apps |
 | **Requests** | [Seerr](https://github.com/seerr-team/seerr) · [Maintainerr](https://github.com/Maintainerr/Maintainerr) |
 | **Playback** | [Plex](https://plex.tv) · [Jellyfin](https://jellyfin.org) — hardware transcoding options included |
 | **Usenet** | [SABnzbd](https://sabnzbd.org) · [NZBGet](https://nzbget.net) |
-| **Torrents** | [qBittorrent](https://www.qbittorrent.org) |
 | **Quality** | Custom formats, cutoff scores, language filters — pushed into Radarr/Sonarr via API *(Premium)* |
 
 Toggle what you need. Dependencies, networks, and init order stay consistent.
@@ -87,9 +83,9 @@ Toggle what you need. Dependencies, networks, and init order stay consistent.
 │                                                                 │
 │  Traefik ──▶ Plex/Jellyfin                                      │
 │     │                                                           │
-│     ├── Radarr ── Sonarr ── Lidarr ── Prowlarr                  │
+│     ├── Radarr ── Sonarr ── Prowlarr                  │
 │     │       │        │                                          │
-│     │       └────────┴── SABnzbd / NZBGet / qBittorrent         │
+│     │       └────────┴── SABnzbd / NZBGet         │
 │     └── TLS termination · Host routing · Docker networks        │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -111,9 +107,9 @@ Toggle what you need. Dependencies, networks, and init order stay consistent.
 
 ---
 
-## 💎 Free vs Premium
+## 💎 Standard Pass vs. Pro Pass
 
-| | **Free** | **Premium** |
+| | **Standard Pass (14 Days)** | **Pro Pass (1 Year)** |
 |---|---|---|
 | Hosted wizard at [stackforge.tannerap.ch](https://stackforge.tannerap.ch) | ✅ | ✅ |
 | Live Compose preview | ✅ | ✅ |
@@ -123,10 +119,10 @@ Toggle what you need. Dependencies, networks, and init order stay consistent.
 | Quality profiles & custom formats via API | — | ✅ |
 | `.env`, Traefik, `setup.sh`, init sidecars | — | ✅ |
 | Managed sandbox preview | — | ✅ |
-| Early Access / Beta Services (Tdarr, CrowdSec, etc.) | ❌ | ✅ |
+| Upcoming Early Access / Beta Services (e.g. Tdarr, CrowdSec) | ❌ | ✅ |
 
-> **Free** — design and export; finish wiring yourself.  
-> **Premium** — full automation unlocked on our platform, deployed to your metal.
+> **Standard Pass** — design and export; finish wiring yourself.  
+> **Pro Pass** — full automation unlocked on our platform, deployed to your metal.
 
 ---
 
@@ -150,7 +146,7 @@ Toggle what you need. Dependencies, networks, and init order stay consistent.
 
 ## 🛠️ Developers
 
-> *This repository serves as the public documentation, issue tracker, and community hub for StackForge. To request features or report bugs, please open an issue.*
+This repository serves as the public documentation, issue tracker, and community hub for StackForge. To request features or report bugs, please open an issue.
 
 <p align="center">
   <sub><a href="https://stackforge.tannerap.ch">stackforge.tannerap.ch</a> · <a href="https://github.com/tannerap/StackForge">GitHub</a></sub>
