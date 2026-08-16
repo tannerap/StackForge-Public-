@@ -13,6 +13,7 @@
 <br>
 
 [![Launch StackForge](https://img.shields.io/badge/Open_Wizard-→_stackforge.tannerap.ch-22c55e?style=for-the-badge&logo=docker&logoColor=white)](https://stackforge.tannerap.ch)
+![Alpha](https://img.shields.io/badge/Status-Alpha-f59e0b?style=for-the-badge&logo=flask&logoColor=white)
 [![Preview stack](https://img.shields.io/badge/Live_Preview-Compose_+_Sandbox-0ea5e9?style=for-the-badge)](https://stackforge.tannerap.ch)
 
 <br>
