@@ -68,13 +68,13 @@ Toggle what you need. Dependencies, networks, and init order stay consistent.
 ┌─────────────────────────────────────────────────────────────────┐
 │  stackforge.tannerap.ch  (hosted by us — you don't clone this)  │
 │  ┌──────────────┐    ┌─────────────────────────────────────┐    │
-│  │ Visual       │───▶│ Compose generator + quality engine  │    │
+│  │ Visual       │──▶│ Compose generator + quality engine  │    │
 │  │ wizard UI    │    │ (Traefik, *arr, downloads, media)   │    │
 │  └──────────────┘    └─────────────────────────────────────┘    │
 │         │                          │                            │
 │         │ Free: preview + export   │ Premium: full bundle       │
 │         ▼                          ▼                            │
-│   docker-compose.yml         .env · setup.sh · init sidecars      │
+│   docker-compose.yml         .env · setup.sh · init sidecars    │
 │   (basic export)             · auto-wiring · quality provision  │
 └──────────────────────────────┬──────────────────────────────────┘
                                │ deploy to YOUR hardware
@@ -82,11 +82,11 @@ Toggle what you need. Dependencies, networks, and init order stay consistent.
 ┌─────────────────────────────────────────────────────────────────┐
 │  Your Home Lab (NAS / server / workstation)                     │
 │                                                                 │
-│  Traefik ──▶ Plex/Jellyfin                                      │
+│  Traefik ──▶ Plex/Jellyfin                                     │
 │     │                                                           │
-│     ├── Radarr ── Sonarr ── Prowlarr                  │
+│     ├── Radarr ── Sonarr ── Prowlarr                            │
 │     │       │        │                                          │
-│     │       └────────┴── SABnzbd / NZBGet         │
+│     │       └────────┴── SABnzbd / NZBGet                       │
 │     └── TLS termination · Host routing · Docker networks        │
 └─────────────────────────────────────────────────────────────────┘
 ```
