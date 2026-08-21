@@ -14,7 +14,14 @@
 
 [![Launch StackForge](https://img.shields.io/badge/Open_Wizard-→_stackforge.tannerap.ch-22c55e?style=for-the-badge&logo=docker&logoColor=white)](https://stackforge.tannerap.ch)
 ![Alpha](https://img.shields.io/badge/Status-Alpha-f59e0b?style=for-the-badge&logo=flask&logoColor=white)
+[![Watch overview](https://img.shields.io/badge/Watch_Overview-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/8W_BW3md7KA)
 [![Preview stack](https://img.shields.io/badge/Live_Preview-Compose_+_Sandbox-0ea5e9?style=for-the-badge)](https://stackforge.tannerap.ch)
+
+<br>
+
+[![StackForge overview on YouTube](https://img.youtube.com/vi/8W_BW3md7KA/hqdefault.jpg)](https://youtu.be/8W_BW3md7KA)
+
+*Short overview — [watch on YouTube](https://youtu.be/8W_BW3md7KA)*
 
 <br>
 
