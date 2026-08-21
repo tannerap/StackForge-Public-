@@ -117,7 +117,7 @@ Toggle what you need. Dependencies, networks, and init order stay consistent.
 
 ## 💎 Standard Pass vs. Pro Pass
 
-| | **Standard Pass (14 Days)** | **Pro Pass (1 Year)** |
+| | **Standard Pass (7 Days)** | **Pro Pass (1 Year)** |
 |---|---|---|
 | Hosted wizard at [stackforge.tannerap.ch](https://stackforge.tannerap.ch) | ✅ | ✅ |
 | Live Compose preview | ✅ | ✅ |
